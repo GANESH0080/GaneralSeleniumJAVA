@@ -1,0 +1,62 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User on Malaysia Page",
+        "description": "",
+        "id": "get-bank-details-from-web-page;user-on-malaysia-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13303664600,
+              "status": "passed"
+            },
+            "comments": [
+              {
+                "line": 6,
+                "value": "# Used Gherkin language (Simple text presentation language) for writing the steps in Feature file"
+              },
+              {
+                "line": 7,
+                "value": "# Used Natural plugin to Integrate eclipse with Cucumber"
+              }
+            ],
+            "line": 8,
+            "name": "User is already on Malaysia page",
+            "match": {
+              "location": "MalaysiaPageDefinations.User_is_already_on_Malaysia_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 48923200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify Title of Page",
+            "match": {
+              "location": "MalaysiaPageDefinations.Verify_Title_of_Page()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Get bank Details from Web Page",
+    "description": "",
+    "id": "get-bank-details-from-web-page",
+    "keyword": "Feature",
+    "uri": "Featurfiletwo.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Featuretwo"
+      }
+    ]
+  }
+]
