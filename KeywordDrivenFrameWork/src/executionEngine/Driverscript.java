@@ -8,7 +8,7 @@ public class Driverscript {
 	public static void main(String[] args) throws Exception {
 
 		// STEP 2: Maximize the firefox browser
-		String sPath = "D:\\SeleniumWorkspace\\KeywordDrivenFrameWork\\src\\dataEngine\\DataEngine.xlsx";
+		String sPath = "D:\\GaneralSeleniumJAVA\\KeywordDrivenFrameWork\\src\\dataEngine\\DataEngine.xlsx";
 
 		// Here we are passing the Excel path and SheetName as arguments to
 		// connect with Excel file

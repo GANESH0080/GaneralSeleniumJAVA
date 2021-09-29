@@ -21,7 +21,7 @@ public class ExcelUtils {
 	// Pass Excel Path and SheetName as Arguments to this method
 	public static void setExcelFile(String Path, String SheetName) throws Exception {
 		
-		FileInputStream ExcelFile = new FileInputStream("D:\\SeleniumWorkspace\\KeywordDrivenFrameWork\\src\\DataEngine\\dataEngine.xlsx");
+		FileInputStream ExcelFile = new FileInputStream("D:\\GaneralSeleniumJAVA\\KeywordDrivenFrameWork\\src\\dataEngine\\DataEngine.xlsx");
 		ExcelWBook = new XSSFWorkbook(ExcelFile);
 		ExcelWSheet = ExcelWBook.getSheet(SheetName);
 	}

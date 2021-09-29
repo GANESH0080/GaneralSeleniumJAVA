@@ -25,7 +25,7 @@ public class ActionKeywords {
 	public static void readORfile() throws IOException {
 
 		// Setting the OR properties file path
-		File file = new File("D:\\SeleniumWorkspace\\KeywordDrivenFrameWork\\ObjectRepository.properties");
+		File file = new File("D:\\GaneralSeleniumJAVA\\KeywordDrivenFrameWork\\ObjectRepository.properties");
 
 		FileInputStream fileInput = null;
 
